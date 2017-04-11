@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="activemq_spring4:war exploded">
+    <output-path>$PROJECT_DIR$/target/activemq_spring4</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="activemq_spring4" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.11.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.xbean:xbean-spring:4.4" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="E:\IdeaProjects\activemq_spring4\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="activemq_spring4/web/Web" />
+    </root>
+  </artifact>
+</component>
