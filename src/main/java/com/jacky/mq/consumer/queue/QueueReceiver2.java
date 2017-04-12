@@ -16,6 +16,7 @@ public class QueueReceiver2 implements MessageListener {
     public void onMessage(Message message) {
         try {
             System.out.println("QueueReceiver2接收到消息:"+((TextMessage)message).getText());
+            message.acknowledge();////手动向broker确认接收成功，如果发生异常，就不反回ack
         } catch (JMSException e) {
             e.printStackTrace();
         }

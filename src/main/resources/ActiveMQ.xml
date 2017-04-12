@@ -53,7 +53,7 @@
        <!-- 消息消费者 start-->
 
        <!-- 定义Queue监听器 -->
-       <jms:listener-container destination-type="queue" container-type="default" connection-factory="connectionFactory" acknowledge="auto">
+       <jms:listener-container destination-type="queue" container-type="default" connection-factory="connectionFactory" acknowledge="client">
               <jms:listener destination="jacky.queue" ref="queueReceiver1"/>
               <jms:listener destination="jacky.queue" ref="queueReceiver2"/>
        </jms:listener-container>
